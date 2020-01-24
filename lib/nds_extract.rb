@@ -2,6 +2,13 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
 def directors_totals(nds)
+  
+  hash = {
+  "1st Director's Name"=>1234567890,
+  "2nd Director's Name"=>1234577890,
+  "3rd Director's Name"=>1234709136,
+  ...
+}
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
   #
